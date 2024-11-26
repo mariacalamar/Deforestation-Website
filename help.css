@@ -1,0 +1,48 @@
+.Help{
+    font-size: 55px;
+}
+
+.Helpie{
+    font-size: 25px;
+}
+
+.clickable {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .clickable:hover {
+    color: darkblue;
+  }
+  
+  .extra-info {
+    display: none;
+  }
+  
+  #toggle:checked + .extra-info {
+    display: block;
+  }
+
+
+  .clickable {
+    color: white;               
+    background-color: #4CAF50;  
+    padding: 5px 10px;          
+    border-radius: 5px;         
+    cursor: pointer;
+    margin-left: 50px;          
+  }
+  
+  .clickable:hover {
+    background-color: #45a049;  
+  }
+  
+  .extra-info {
+    display: none;
+    margin-left: 50px;  
+  }
+  
+  #toggle:checked + .extra-info {
+    display: block;
+  }
